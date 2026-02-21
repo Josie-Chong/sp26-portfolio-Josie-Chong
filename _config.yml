@@ -8,11 +8,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Josie Chong
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
+name                     : Josie Chong
+description              : Josie Chong - Projects and CV 
 baseurl                  : "" # Set this to your repo name 
 
 # Theme and Style
