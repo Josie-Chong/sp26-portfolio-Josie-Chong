@@ -25,7 +25,7 @@ Vineyard owners across New York State are affected by the rapid proliferation of
 ## Impact
 A scalable, systematic method for eliminating large quantities of SLF egg masses is necessary to meaningfully reduce infestations and prevent substantial economic losses for vineyards. Without effective, large-scale intervention, projected losses in the Lake Erie and Finger Lakes regions alone could reach approximately $8.8 million within three years (Gómez, 2025), highlighting the urgent need for proactive and reliable egg-destruction strategies. 
 
-## Proposed direction(s)
+## Proposed direction
 
 ### Concept A (primary): Mobile Composting Crusher
 
@@ -78,13 +78,9 @@ A compact crushing mechanism prototype capable of operating while inverted and m
 
 \newpage
 
-## Optional page 2 — References and/or one figure
-
 # References
 
 - Krawczyk, G. (n.d.). *What should you do with spotted lanternfly egg masses?* Penn State Extension. https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses
 - Pinto, A. F., Eshenaur, B. C., Acevedo, F. E., Calixto, A. A., Centinari, M., & Gómez, M. I. (2025). *Assessing the potential economic impacts of spotted lanternfly (Hemiptera: Fulgoridae) infestations on grape production in New York State.* Journal of Integrated Pest Management, 16(1). https://doi.org/10.1093/jipm/pmae039
 
-## Figure
 
-<!-- ![<One-line caption. No full sentences.>](figures/<your_figure_filename>.png) -->
