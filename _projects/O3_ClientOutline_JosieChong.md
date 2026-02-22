@@ -15,6 +15,7 @@ header-includes:
 # The Crusher — Let's crush these SLF!
 
 **Team:** _Vine Vanguard_
+
 **Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 ## Problem statement
@@ -30,41 +31,55 @@ A scalable, systematic method for eliminating large quantities of SLF egg masses
 ### Concept A (primary): Mobile Composting Crusher
 
 **What it is:** 
+
 A mobile crushing and composting unit designed to move through vineyard rows, collect scraped masses, crush and store remains for compost use.  
+
 **How it would be used:**
+
 - Workers scrape egg masses from vines
 - Egg masses are deposited into the mobile unit
 - Internal crushing mechanisms destroy 100% of input masses
 - Crushed material is stored for compost reuse
+
 **Why it’s better than the status quo:**
+  
 - Handles large quantities of eggs efficiently
 - Incorporates multiple contingency crushing mechanisms to ensure full destruction
 - Reduces reliance on partially effective chemical ovicides
-- Converts biological waste into usable compost material 
+- Converts biological waste into usable compost material
+
 **End-of-semester proof-of-concept:**
-End-of-semester proof-of-concept: A scaled prototype of the crushing and collecting mechanism, along with basic mobility to drive through vineyard rows.  
+
+A scaled prototype of the crushing and collecting mechanism, along with basic mobility to drive through vineyard rows.  
 
 ### Concepts B: Egg Crusher Attachment 
 
 **What it is:** 
-A small, lightweight crushing attachment to integrate with other systems that crush SLF eggs, such as an autonomous drone.  
+
+A small, lightweight crushing attachment to integrate with other systems that crush SLF eggs, such as an autonomous drone. 
+
 **How it would be used:**
+
 - Mounted onto a flat surface or compatible device
 - Receives scraped egg masses
 - Operates in multiple orientations (including inverted)
 - Crushes and contains egg remains
+
 **Why it’s better than the status quo:**
+
 - Compact and adaptable
 - Integrates into existing vineyard systems
 - Enables flexible deployment options for different scales of operation
+
 **End-of-semester proof-of-concept:**
+
 A compact crushing mechanism prototype capable of operating while inverted and mounted to a surface.
 
 ## Key risks / unknowns
 
-- Interference with harvesting equipment — The device must not obstruct vineyard operations; we will evaluate footprint and mobility constraints during prototyping.
-- Ensuring 100% destruction of egg masses — Partial destruction could allow continued infestation; we will test crushing redundancy and containment strategies.
-- Assumption that scraping is complete — Our design focuses on crushing and disposal; we must confirm that this division aligns with vineyard workflows.
+- Interference with harvesting equipment: the device must not obstruct vineyard operations; we will evaluate footprint and mobility constraints during prototyping.
+- Ensuring 100% destruction of egg masses: partial destruction could allow continued infestation; we will test crushing redundancy and containment strategies.
+- Assumption that scraping is complete: our design focuses on crushing and disposal; we must confirm that this division aligns with vineyard workflows.
 
 ## Questions for the client
 1. **Is reincorporating crushed egg waste into the vineyard as compost appealing?**  
