@@ -17,7 +17,7 @@ header-includes:
 **Team:** _Vine Vanguard_
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+## Problem statement
 
 Vineyard owners across New York State are affected by the rapid proliferation of Spotted Lanternflies (SLF), which lay egg masses directly on grapevines and nearby surfaces. They are trying to reduce SLF reproduction by destroying egg masses before they hatch. Each female SLF lays 30-120 eggs per year, and heavily infested vineyards can have 400 SLF per vine. This means that eggs are being laid exponentially. Current elimination methods such as crushing egg masses one-by-one is ineffective if they are not fully destroyed, and experimental ovicides kill only up to 75% of eggs (Krawczyk). Even a single surviving egg mass can enable SLF persistence, escalating plant damage and contaminated harvests.
   
@@ -78,7 +78,7 @@ A compact crushing mechanism prototype capable of operating while inverted and m
 
 \newpage
 
-# Optional page 2 — References and/or one figure
+## Optional page 2 — References and/or one figure
 
 # References
 
