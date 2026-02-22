@@ -15,7 +15,7 @@ header-includes:
 # The Crusher — Let's crush these SLF!
 
 **Team:** _Vine Vanguard_
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
 ## Problem statement
 
