@@ -5,9 +5,7 @@ description: Pitching a mobile crushing and composting system for spotted lanter
 technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
 category: MAE 2250
----
 
----
 fontsize: 11pt
 geometry: margin=1in
 papersize: letter
