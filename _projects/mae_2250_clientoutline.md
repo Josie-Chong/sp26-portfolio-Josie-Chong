@@ -3,7 +3,7 @@ layout: project
 title: Client Outline
 description: Pitching a mobile crushing and composting system for spotted lanternfly egg masses
 technologies: [CAD, Prototyping, Mechanical Design]
-image: /assets/images/crusher.jpg
+image: /assets/images/Gears.png
 category: MAE 2250
 ---
 
