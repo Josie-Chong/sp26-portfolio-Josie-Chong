@@ -1,17 +1,10 @@
 ---
 layout: project
-title: Client Outline
+title: MAE 2250: Client Outline
 description: Pitching a mobile crushing and composting system for spotted lanternfly egg masses
 technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
 category: MAE 2250
-
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
 ---
 
 # The Crusher — Let's crush these SLF!
@@ -93,7 +86,7 @@ A compact crushing mechanism prototype capable of operating while inverted and m
 3. **What operational constraints exist during harvest season?**  
    *Decision affected:* Influences mobility size, durability, and interference limitations.
 
-\newpage
+
 
 # References
 
