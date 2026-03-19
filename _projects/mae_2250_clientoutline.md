@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Open Design Project: Client Outline
+title: "Open Design Project: Client Outline"
 description: Pitching ideas for an SLF egg crushing machine
 technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
