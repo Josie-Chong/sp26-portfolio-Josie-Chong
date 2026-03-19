@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: <Josie Chong> - Portfolio
 permalink: /projects/
 ---
 
