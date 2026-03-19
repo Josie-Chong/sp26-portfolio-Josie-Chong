@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Josie Chong> - Portfolio
+title: Josie Chong - Portfolio
 permalink: /projects/
 ---
 
