@@ -1,11 +1,11 @@
 ---
 layout: project
-title: MAE 2250: Client Outline
-description: Pitching a mobile crushing and composting system for spotted lanternfly egg masses
+title: Open Design Project: Client Outline
+description: Pitching ideas for an SLF egg crushing machine
 technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
-category: MAE 2250
 ---
+
 
 # The Crusher — Let's crush these SLF!
 
