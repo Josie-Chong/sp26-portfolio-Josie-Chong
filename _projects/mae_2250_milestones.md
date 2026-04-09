@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "MAE2250 Open Design Project"
+title: "MAE2250: Open Design Project"
 description: Milestone Tracker
 technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
