@@ -6,7 +6,10 @@ technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
 ---
 
+
+
 # Project Milestones
+
 
 ## Milestones:
 - [Client Pitch](#client-pitch)
