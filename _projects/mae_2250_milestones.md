@@ -6,6 +6,8 @@ technologies: [CAD, Prototyping, Mechanical Design]
 image: /assets/images/Gears.png
 ---
 
+# Project Context
+Spotted Lanternfly (SLF) infestations pose a significant threat to grape vineyards by rapidly spreading through large batches of eggs laid on vines and surrounding surfaces. This project explores a tangible, mechanical approach to disrupting that cycle, focusing on developing a realistic and scalable solution within the scope of undergraduate mechanical engineering design. 
 
 --- 
 # Project Milestones
