@@ -24,7 +24,7 @@ Spotted Lanternfly (SLF) infestations pose a significant threat to grape vineyar
 
 **Team:** _Vine Vanguard_
 
-**Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape  
 
 ## Problem statement
 
