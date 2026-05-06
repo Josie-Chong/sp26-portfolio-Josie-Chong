@@ -114,8 +114,8 @@ The purpose of this functional prototype is to be able to test our team's mechan
 
 ## Illustrations of Design Intent
 ### CAD diagrams of prototype components and functions
-![Parts Diagram](/assets/images/Parts.png)
-![Assembly Diagram](/assets/images/Assembly.png)
+image: ![Parts Diagram](/assets/images/Parts.png)
+image: ![Assembly Diagram](/assets/images/Assembly.png)
 
 ## Design Tests
 
@@ -244,7 +244,7 @@ Our design draws inspiration from juicer systems, where material is guided throu
 Following initial mock-ups to determine overall dimensions and structural layout, we developed multiple iterative prototypes to address challenges in spiral alignment, clearance tolerances, and material flow. The final functional prototype is shown in the figure below, which illustrates the full system architecture and component interactions.
 
 ### Component Specifications and Assembly:
-![CAD Diagram](/assets/images/CAD.png)
+image: ![CAD Diagram](/assets/images/CAD.png)
 The final prototype consists of nine 3D-printed PLA components fabricated using the Rapid Prototyping Lab, integrated with purchased mechanical and electrical components. The central crushing mechanism utilizes a McMaster 6409K17 compact DC gearmotor (12V DC, 26 rpm, 320 in-oz torque) to drive a custom-designed spiral shaft assembly. The crushing chamber features a cylindrical mesh housing that secures a 304 stainless steel mesh cylinder (20x20 mesh, 0.034" openings) flush against the rotating spiral. For enhanced filtration, a secondary fine mesh layer (270x270 mesh, 0.0023" openings) provides additional crushing precision. The spiral geometry was iteratively optimized through multiple prototypes to achieve proper clearance tolerances and material flow characteristics. Assembly is achieved through M3 x 25mm Phillips head screws (McMaster 99461A948) that secure the mesh housing to the motor housing, while the motor itself is mounted with dedicated bolts. A toggle switch (SPST-NO, 6A rating, McMaster 7343K184) provides simple on/off control. The modular design allows for easy disassembly for maintenance or component replacement. Material flow follows a consistent path: egg masses enter through the inlet funnel, are transported downward by the spiral while being compressed against the mesh barrier, and crushed material exits via the sweeper-directed outlet funnel. The entire assembly weighs approximately 2.5 pounds and measures roughly 12 inches in height, making it suitable for field deployment alongside existing collection workflows.
 
 ### References
