@@ -16,6 +16,7 @@ Spotted Lanternfly (SLF) infestations pose a significant threat to grape vineyar
 ## Milestones:
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report) 
 
 ---
 
@@ -99,8 +100,6 @@ A compact crushing mechanism prototype capable of operating while inverted and m
 3. **What operational constraints exist during harvest season?**  
    *Decision affected:* Influences mobility size, durability, and interference limitations.
 
-\newpage
-
 # References
 
 - Krawczyk, G. (n.d.). *What should you do with spotted lanternfly egg masses?* Penn State Extension. https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses
@@ -112,6 +111,11 @@ A compact crushing mechanism prototype capable of operating while inverted and m
 ## Purpose
 
 The purpose of this functional prototype is to be able to test our team's mechanical designs and to determine our success criteria and how to assess them for our final prototype.
+
+## Illustrations of Design Intent
+### CAD diagrams of prototype components and functions
+![Parts Diagram](/assets/images/Parts.png)
+![Assembly Diagram](/assets/images/Assembly.png)
 
 ## Design Tests
 
@@ -193,6 +197,56 @@ Device size and weight
   - After creating our next prototypes, physically measure the size of device using rulers or calipers
   - Measure the weight of the device using a scale
 
+---
 
+# Client Report
+## The Egg Crusher: A Scalable Solution for Spotted Lanternfly Egg Management
 
+### Problem Statement & Context: 
+Vineyard owners across New York State are affected by the rapid spread of Spotted Lanternflies (SLF), whose presence in the Lake Erie and Finger Lakes regions alone could have projected losses reaching approximately $8.8 million within three years [1]. A single SLF egg mass contains 30–50 eggs, and populations can spread rapidly across large areas of vineyard land. To effectively address this spread, reduce proliferation, and prevent these economic losses from spreading to other parts of the nation, these invasive insects should be targeted while in their egg stage.Destroying eggs prevents the flies from maturing into reproductive adults, reducing the number of SLF that will lay future egg masses and limiting their exponential population growth. Our team focused on developing a mechanical solution for large-scale egg mass destruction that can be deployed at the vineyard level.
+Current elimination methods are not suitable for addressing large-scale SLF populations. Manually crushing individual egg masses is time-consuming and inconsistent. Submersion into rubbing alcohol requires constant refilling and storage capacity. Experimental oil ovicides are only effective on 75% of eggs [2]. Additional consideration must be given to the consequences of ineffective elimination, as even one surviving egg mass can enable SLF persistence, escalating plant damage and contaminated harvests.
+There is a need for a systematic method for eliminating large quantities of SLF egg masses that can be integrated into existing collection workflows. This method must be consistently effective, practical for real-world use, while minimizing storage, disposal, and labor demands on vineyard operations during implementation.
 
+### Final Prototype and Application:
+We developed a device that mechanically crushes eggs, utilizing a juicer-inspired crushing mechanism.
+
+**How it works:**
+- Eggs masses enter the mesh cylinder chamber through an inlet funnel.
+- A rotating spiral, driven by an electric motor, transports the egg masses downward while simultaneously pressing the eggs against the mesh cylinder, where the crushing occurs.
+- A sweeper attached to the rotating spiral pushes crushed eggs towards a hole in the bottom of the mesh housing, falling out of the device through an outlet funnel.
+
+This device will be deployed in the field alongside the given collection method that best suits the vineyard's needs, such as a manual scraper or an autonomous scraping robot. The device is modular, such that its method of accepting and ejecting egg masses can be easily changed.
+
+### Conclusion and Recommendation:
+We would recommend the continued research and development of the Egg Crusher for applications in vineyards. The device in its current form is a successful proof of concept for a scalable, efficient, and practical egg extermination method, demonstrating basic mechanical motion. Its ~80% crushing efficiency is on par with current methods, without the drawbacks of consistent maintenance or manual labor. Additionally, its 100% efficiency for ejecting crushed eggs of a standardized diameter suggests the crushed eggs can be re-incorporated into the ecosystem as a compost ingredient if desired by the vineyard owners.
+
+**We would suggest three primary redesigns in future phases of this project:**
+1. *Spiral and sweeper geometry.* Pitch angle, spiral diameter, and other features can be optimized to improve crushing efficiency and properly push the crushed eggs towards the outlet funnel.
+2. *Compactness.* The system can be scaled down to reduce weight and improve portability, making it easier to deploy in the field alongside a collection device.
+3. *Contingency mechanisms.* Incorporating multiple built-in crushing mechanisms arranged in a linear series can improve crushing efficiency, as eggs not crushed by the first spiral will be crushed by the second crushing mechanism right below.
+
+### Testing and Results:
+Using hydrated Orbeez as model SLF eggs due to their comparable size and material properties as well as their uniformity, we were able to test:
+1. *The dependence of the quantity of inputted eggs on machine efficiency.*
+We wanted to determine if the system had an optimal loading range. Results showed that efficiency decreases as quantity increases beyond the optimal operating load. Trials with 50 eggs produced a crushing efficiency range of 72-92% with an average crushing efficiency of 82%. With trials of 100 eggs, the crushing efficiency dropped to a range of 64-78% with an average crushing efficiency of 72%. This indicates that overcrowding inside the chamber restricts motion and reduces effective processing, limiting throughput at higher loads. However, it does also indicate that the device is suitable for crushing one egg mass at a time which contains anywhere from 30-50 eggs.
+2. *The dependence of operation time on machine efficiency.*
+We wanted to determine whether longer runtime improves performance. Across both 90 second and 3 minute trials with 100 eggs, results showed minimal or no improvement over time. Crushing efficiency remained within similar ranges of 64-78% with an average crushing efficiency of 72% for 90 seconds and 65-78% with an average crushing efficiency of 71% for 3 minutes. This suggests that the system reached a steady-state operating condition quickly which means that extending the operating time of the system does not significantly enhance crushing performance once equilibrium is reached. This indicates that our device can limit the amount of energy used as increasing the operating time does not increase the crushing efficiency.
+3. *The system failure rate.*
+Finally, we evaluated the system failure rate which we defined as eggs that made it through the device uncrushed. Across all trials, with our standard Orbeez model egg size of ⅛”, no uncrushed eggs were observed indicating a 0% failure rate under these standardized conditions. In the cases where an uncrushed Orbeez made it through the device, the Orbeez tended to be less hydrated and smaller measuring closer to 1/16” rather than ⅛”.
+
+**Key Outcomes:**
+- Optimal performance occurs at lower to moderate input quantities as the 50-100 eggs range shows diminishing returns as the load increases
+- Time is not a limiting factor after initial steady-state is reached, 90 seconds seems to be sufficient
+- System reliability is high, with effectively complete crushing under tested conditions
+
+### Prototype and Testing Details:
+Our design draws inspiration from juicer systems, where material is guided through a rotating spiral and compressed against an abrasive mesh surface. Similarly, our device crushes input SLF egg masses by forcing them downward through a rotating central spiral against a fixed mesh barrier. This approach prioritizes compactness, portability, and compatibility with future system integration.
+Following initial mock-ups to determine overall dimensions and structural layout, we developed multiple iterative prototypes to address challenges in spiral alignment, clearance tolerances, and material flow. The final functional prototype is shown in the figure below, which illustrates the full system architecture and component interactions.
+
+### Component Specifications and Assembly:
+![CAD Diagram](/assets/images/CAD.png)
+The final prototype consists of nine 3D-printed PLA components fabricated using the Rapid Prototyping Lab, integrated with purchased mechanical and electrical components. The central crushing mechanism utilizes a McMaster 6409K17 compact DC gearmotor (12V DC, 26 rpm, 320 in-oz torque) to drive a custom-designed spiral shaft assembly. The crushing chamber features a cylindrical mesh housing that secures a 304 stainless steel mesh cylinder (20x20 mesh, 0.034" openings) flush against the rotating spiral. For enhanced filtration, a secondary fine mesh layer (270x270 mesh, 0.0023" openings) provides additional crushing precision. The spiral geometry was iteratively optimized through multiple prototypes to achieve proper clearance tolerances and material flow characteristics. Assembly is achieved through M3 x 25mm Phillips head screws (McMaster 99461A948) that secure the mesh housing to the motor housing, while the motor itself is mounted with dedicated bolts. A toggle switch (SPST-NO, 6A rating, McMaster 7343K184) provides simple on/off control. The modular design allows for easy disassembly for maintenance or component replacement. Material flow follows a consistent path: egg masses enter through the inlet funnel, are transported downward by the spiral while being compressed against the mesh barrier, and crushed material exits via the sweeper-directed outlet funnel. The entire assembly weighs approximately 2.5 pounds and measures roughly 12 inches in height, making it suitable for field deployment alongside existing collection workflows.
+
+### References
+[1] A. F. Pinto, B. C. Eshenaur, F. E. Acevedo, A. A. Calixto, M. Centinari, and M. I. Gómez, "Assessing the potential economic impacts of spotted lanternfly (Hemiptera: Fulgoridae) infestations on grape production in New York State," Journal of Integrated Pest Management, vol. 16, no. 1, 2025. [Online]. Available: https://doi.org/10.1093/jipm/pmae039
+[2] G. Krawczyk, "What should you do with spotted lanternfly egg masses?" Penn State Extension. [Online]. Available: https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses
